@@ -1,7 +1,6 @@
 import React from 'react'
 
 function FormField({
-    labelName,
     type,
     name,
     placeholder,
@@ -33,10 +32,10 @@ function FormField({
         </option>
         {options.map((option) => {
             if(option === 'disabled'){
-                <option disabled={true}>{option}</option>
+                <option key={Math.random()} disabled={true}>{option}</option>
             }
             else{
-                return <option value={option}>{option}</option>
+                return <option key={Math.random()} value={option}>{option}</option>
             }
             <>
             </>

@@ -92,7 +92,6 @@ function CreatePost() {
 
       <form onSubmit={handleSubmit}>
         <FormField
-          labelName="Prompt"
           type="text"
           name="prompt"
           placeholder="An Impressionist oil painting of sunflowers in a purple vase…"

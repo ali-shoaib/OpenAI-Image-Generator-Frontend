@@ -2,8 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
-        <footer className="bg-light text-center text-lg-start">
+    <footer className="bg-light text-center text-lg-start">
         <div className="container p-4">
             <form action="">
             <div className="d-flex justify-content-around align-items-end">
@@ -29,8 +28,7 @@ function Footer() {
             © {new Date().getFullYear()} Copyright:
             <a className="text-dark" href="https://openai.com/"> openai.com</a>
         </div>
-        </footer>
-    </div>
+    </footer>
   )
 }
 
